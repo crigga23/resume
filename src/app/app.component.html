@@ -1,96 +1,11 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1 class="display-1">
-    {{title}}
-  </h1>
-  <h6>Multi-Talented Developer and Software Tester</h6>
-  <!-- <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="> -->
-</div>
-<ul>
-  <li><span>Email:</span> {{person.email}}</li>
-  <li><span>Phone:</span> {{person.telephone}}</li>
-  <li><span>LinkedIn:</span> {{person.linkedIn}}</li>
-  <li><span>twitter:</span> {{person.twitterHandle}}</li>
-</ul>
+<app-resume-header></app-resume-header>
 
-<div id="education" class="card">
-  <div class="card-body">
-    <h4 class="card-title">EDUCATION</h4>
-    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-    <p class="card-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis tellus vel nunc feugiat porta. Quisque nunc tellus,
-      pulvinar quis nibh non, ullamcorper aliquam magna. Nunc sit amet nunc egestas metus egestas faucibus. Nullam at tristique
-      turpis. Sed id diam eget tortor vehicula tincidunt et nec est. Donec enim nunc, maximus eget massa quis, hendrerit dapibus
-      ligula. Nullam non vehicula lectus. In id posuere lacus. Aliquam pretium lacinia justo, id eleifend tortor faucibus non.
-      Aliquam odio dolor, porttitor nec venenatis at, ultricies sed est. Donec vel congue sem. Aliquam eu enim enim. Cras vitae
-      nibh lorem.
-    </p>
-    <!-- <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> -->
-  </div>
-</div>
+<app-education></app-education>
 
-<div id="about" class="card">
-  <div class="card-body">
-    <h4 class="card-title">ABOUT ME</h4>
-    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-    <p class="card-text">
-      Praesent luctus diam diam, eu efficitur nulla cursus vel. Fusce a nulla vel dolor viverra suscipit. Curabitur commodo semper
-      est et efficitur. Curabitur in turpis ultrices mauris imperdiet tincidunt in id tellus. Fusce rhoncus elementum sollicitudin.
-      Pellentesque volutpat sit amet erat nec vulputate. Praesent molestie massa id lectus blandit lacinia. Maecenas commodo
-      sit amet sem vitae efficitur. Maecenas cursus non arcu eget placerat. Praesent porta vulputate lorem, vel ullamcorper
-      nisl venenatis quis. Phasellus lobortis pellentesque massa. Maecenas laoreet dui id hendrerit scelerisque. Donec vel
-      pretium est. Maecenas in leo vel neque cursus dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-    </p>
-    <!-- <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> -->
-  </div>
-</div>
+<app-about-me></app-about-me>
 
-<div id="workExperience" class="card">
-  <div class="card-body">
-    <h4 class="card-title">WORK EXPERIENCE</h4>
-    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-    <p class="card-text">
-      Quisque et mattis nulla. Aliquam erat volutpat. Etiam maximus diam nec laoreet mollis. Phasellus nec convallis nunc. Vivamus
-      at est finibus, tempor diam sagittis, euismod purus. Quisque finibus laoreet urna, quis placerat nunc aliquet sed. Nullam
-      dolor nunc, iaculis vitae mi ut, ultricies mollis nisl. Aliquam erat volutpat.
-    </p>
-    <!-- <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> -->
-  </div>
-</div>
+<app-work-experience></app-work-experience>
 
-<div id="skills" class="card">
-  <div class="card-body">
-    <h4 class="card-title">SKILLS + EXPERTISE</h4>
-    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-    <p class="card-text">
-      Curabitur sollicitudin sapien at mi mollis vestibulum. Aliquam feugiat accumsan odio ac placerat. Orci varius natoque penatibus
-      et magnis dis parturient montes, nascetur ridiculus mus. Fusce metus lorem, rutrum non faucibus id, aliquet sit amet
-      ipsum. Vestibulum tincidunt elementum nibh eu elementum. Donec et velit vel erat semper semper. Sed dictum mollis lorem,
-      ut fringilla purus placerat in. Ut sed egestas ante, vel ultrices purus. Phasellus rhoncus nisi eget dui consequat, ac
-      vestibulum dui auctor. Proin posuere id tortor sed vulputate. Vestibulum erat risus, mattis eu mi vitae, pharetra vulputate
-      leo. Curabitur rutrum risus dignissim eleifend fringilla. Aliquam consectetur libero id risus tristique ultricies. Fusce
-      ut ornare enim.
-    </p>
-    <!-- <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> -->
-  </div>
-</div>
+<app-skills-expertise></app-skills-expertise>
 
-<div id="references" class="card">
-  <div class="card-body">
-    <h4 class="card-title">REFERENCES</h4>
-    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-    <p class="card-text">
-      Quisque pellentesque tempor ante, id iaculis nisi molestie hendrerit. Nunc commodo tempus lacus, ullamcorper aliquet nisl
-      dictum et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent pellentesque
-      dolor eget dignissim volutpat. Sed bibendum mattis eros eu ullamcorper. Maecenas faucibus feugiat nisi, at sollicitudin
-      lacus venenatis non. Mauris tincidunt porttitor turpis suscipit aliquet. Etiam pellentesque interdum metus, vitae faucibus
-      augue pulvinar sollicitudin.
-    </p>
-    <!-- <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a> -->
-  </div>
-</div>
+<app-references></app-references>
