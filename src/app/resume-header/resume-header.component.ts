@@ -12,7 +12,9 @@ export class ResumeHeaderComponent implements OnInit {
     person = {
       name: 'Craig McKay',
       email: 'craig.mckay@gmail.com',
-      telephone: '++447931 835910'
+      telephone: '++447931 835910',
+      linkedIn: 'www.linkedin.com/in/craig-mckay-1a970156',
+      twitterHandle: 'https://twitter.com/crigga'
     };
 
   constructor() { }
