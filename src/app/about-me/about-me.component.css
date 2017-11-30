@@ -1,0 +1,16 @@
+.about-me tr {
+    vertical-align: text-top;
+}
+
+.about-me tr td:nth-child(1) {
+    font-weight: bold;
+}
+
+.about-me ul {
+    padding: 0;
+    margin: 0;
+}
+
+.about-me ul li { 
+    list-style-type: none;     
+}
