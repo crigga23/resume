@@ -16,4 +16,12 @@ hr {
     border: 0.5px solid black;
 }
 
+.time-line-date + div, .achievements > h6 {
+    font-size: small;
+}
+
+.achievements {
+    padding-top: 1em;
+}
+
 
