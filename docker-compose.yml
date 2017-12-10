@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  resume:
+    image: starbug/resume
+    ports:
+     - "4200:4200"
+    build: .
+    # environment:
+    #   NODE_ENV: production
