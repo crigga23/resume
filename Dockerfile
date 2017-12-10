@@ -10,9 +10,10 @@ RUN apt-get -yqq install nodejs build-essential
 ADD . / /opt/resume/
 WORKDIR /opt/resume/
 
-RUN npm install && npm cache clean --force
+#RUN npm install && npm cache clean --force
 RUN npm install
-RUN npm install -g @angular/cli
+#RUN npm install -g node-sass
+RUN npm install @angular/cli
 
 EXPOSE 4200
 CMD ["ng", "serve", "--host", "0.0.0.0"]
