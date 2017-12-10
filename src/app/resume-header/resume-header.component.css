@@ -1,3 +1,7 @@
 .resume-header table tr td:nth-child(1) {
     font-weight: bold;
 }
+
+.resume-header table {
+    font-size: small;
+}
