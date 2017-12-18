@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
   resume:
-    image: starbug/resume
+    image: starbug/resume:v4
     ports:
      - "4200:4200"
     build: .
