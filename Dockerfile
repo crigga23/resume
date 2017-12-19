@@ -1,18 +1,12 @@
-FROM ubuntu:16.04
+FROM node:slim
+ENV HOME_DIR /opt/resume
+RUN mkdir -p ${HOME_DIR}
 
-#ENV HOME_DIR /opt/resume
-RUN apt-get -yqq update && apt-get -yqq install curl
-RUN mkdir -p /opt/resume
+ADD . / ${HOME_DIR}/
+WORKDIR ${HOME_DIR}
 
-RUN curl -sL https://deb.nodesource.com/setup_9.x | /bin/bash
-RUN apt-get -yqq install nodejs build-essential
-
-ADD . / /opt/resume/
-WORKDIR /opt/resume/
-
-RUN rm -r ./node_modules
-RUN npm install
-RUN npm install @angular/cli
+RUN rm -r ./node_modules && \
+  npm install
 
 EXPOSE 4200
 CMD ["npm", "start", "--host", "0.0.0.0"]
